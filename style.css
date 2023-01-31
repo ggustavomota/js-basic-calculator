@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, rgb(8, 163, 72), rgb(0, 100, 70));
+}
+
+#whole{
+    background-color: rgba(0, 0, 0, 0.103);
+    width: 280px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-family: Roboto;
+}
+
+#upside0{
+    background-color: rgba(0, 0, 0, 0.185);
+    height: 100px;
+}
+
+#upside1{
+    margin-left: 240px;
+    padding-top: 73px;
+    font-weight: bold;
+}
+
+#downside{
+    background-color: black;
+    color: white;
+    height: 350px;
+    margin-top: -16px;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px;
+    margin-left: -40px;
+}
+
+li{
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    padding: 4.8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: white;
+    color: black;
+}
+
+#result{
+    width: 130px;
+}
